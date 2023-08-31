@@ -1,0 +1,169 @@
+05-09-2022 14:51:54:INFO:************Login page tilte test is passed*********
+05-09-2022 14:54:03:INFO:************Test_01_Login*********
+05-09-2022 14:54:03:INFO:************Verifying Home page title*********
+05-09-2022 14:54:25:INFO:************Home page tilte test is passed*********
+05-09-2022 14:54:27:INFO:************Verifying Login page title*********
+05-09-2022 14:54:50:INFO:************Login page test is passed*********
+05-09-2022 14:55:15:INFO:************Login page tilte test is passed*********
+05-09-2022 14:58:27:INFO:************Test_01_Login*********
+05-09-2022 14:58:27:INFO:************Verifying Home page title*********
+05-09-2022 14:58:50:INFO:************Home page tilte test is passed*********
+05-09-2022 14:58:52:INFO:************Verifying Login page title*********
+05-09-2022 14:59:15:INFO:************Login page test is passed*********
+05-09-2022 14:59:40:INFO:************Login page tilte test is passed*********
+05-09-2022 15:01:16:INFO:************Test_01_Login*********
+05-09-2022 15:01:16:INFO:************Verifying Home page title*********
+05-09-2022 15:01:39:INFO:************Home page tilte test is passed*********
+05-09-2022 15:01:41:INFO:************Verifying Login page title*********
+05-09-2022 15:02:04:INFO:************Login page test is passed*********
+05-09-2022 15:02:28:INFO:************Login page tilte test is passed*********
+05-09-2022 15:12:03:INFO:**************Test_02_DDT_Login***************
+05-09-2022 15:12:03:INFO:************Verifying Login ddt page*********
+05-09-2022 15:46:00:INFO:**************Test_02_DDT_Login***************
+05-09-2022 15:46:00:INFO:************Verifying Login ddt page*********
+05-09-2022 15:50:30:INFO:**************Test_02_DDT_Login***************
+05-09-2022 15:50:30:INFO:************Verifying Login ddt page*********
+05-09-2022 16:08:11:INFO:**************Test_02_DDT_Login***************
+05-09-2022 16:08:11:INFO:************Verifying Login ddt page*********
+05-09-2022 16:09:51:INFO:**************Test_02_DDT_Login***************
+05-09-2022 16:09:51:INFO:************Verifying Login ddt page*********
+06-09-2022 10:38:27:INFO:************Login page tilte test is passed*********
+06-09-2022 16:49:50:INFO:**************Test_02_DDT_Login***************
+06-09-2022 16:49:50:INFO:************Verifying Login ddt page*********
+06-09-2022 17:10:54:INFO:**************Test_02_DDT_Login***************
+06-09-2022 17:10:54:INFO:************Verifying Login ddt page*********
+12-09-2022 11:29:12:INFO:******Test_003_demographics**************
+12-09-2022 11:29:36:INFO:***********Login successful*****
+12-09-2022 11:29:36:INFO:******* Provoding client details***********
+12-09-2022 11:30:26:INFO:******Test_003_demographics**************
+12-09-2022 11:30:50:INFO:***********Login successful*****
+12-09-2022 11:30:50:INFO:******* Provoding client details***********
+12-09-2022 11:32:38:INFO:******Test_003_demographics**************
+12-09-2022 11:33:02:INFO:***********Login successful*****
+12-09-2022 11:33:02:INFO:******* Provoding client details***********
+12-09-2022 11:35:27:INFO:******Test_003_demographics**************
+12-09-2022 11:35:55:INFO:***********Login successful*****
+12-09-2022 11:35:55:INFO:******* Provoding client details***********
+12-09-2022 11:50:13:INFO:******Test_003_demographics**************
+12-09-2022 11:50:40:INFO:***********Login successful*****
+12-09-2022 11:50:40:INFO:******* Provoding client details***********
+12-09-2022 11:59:07:INFO:******Test_003_demographics**************
+12-09-2022 11:59:35:INFO:***********Login successful*****
+12-09-2022 11:59:35:INFO:******* Provoding client details***********
+12-09-2022 12:04:49:INFO:******Test_003_demographics**************
+12-09-2022 12:06:08:INFO:******Test_003_demographics**************
+12-09-2022 12:08:16:INFO:******Test_003_demographics**************
+12-09-2022 12:08:44:INFO:***********Login successful*****
+12-09-2022 12:08:44:INFO:******* Provoding client details***********
+12-09-2022 12:13:33:INFO:******Test_003_demographics**************
+12-09-2022 12:14:11:INFO:******Test_003_demographics**************
+12-09-2022 12:14:46:INFO:******Test_003_demographics**************
+12-09-2022 12:23:47:INFO:******Test_003_demographics**************
+12-09-2022 12:27:48:INFO:******Test_003_demographics**************
+12-09-2022 12:28:05:INFO:***********Login successful*****
+12-09-2022 12:28:05:INFO:******* Provoding client details***********
+12-09-2022 12:34:02:INFO:******Test_003_demographics**************
+12-09-2022 12:34:27:INFO:***********Login successful*****
+12-09-2022 12:34:27:INFO:******* Provoding client details***********
+12-09-2022 12:39:04:INFO:******Test_003_demographics**************
+12-09-2022 12:39:30:INFO:***********Login successful*****
+12-09-2022 12:39:30:INFO:******* Provoding client details***********
+12-09-2022 12:41:58:INFO:******Test_003_demographics**************
+12-09-2022 12:42:23:INFO:***********Login successful*****
+12-09-2022 12:42:23:INFO:******* Provoding client details***********
+12-09-2022 12:45:38:INFO:******Test_003_demographics**************
+12-09-2022 12:46:46:INFO:******Test_003_demographics**************
+12-09-2022 12:49:03:INFO:******Test_003_demographics**************
+12-09-2022 12:50:21:INFO:******Test_003_demographics**************
+12-09-2022 12:59:56:INFO:******Test_003_demographics**************
+12-09-2022 13:04:25:INFO:******Test_003_demographics**************
+12-09-2022 13:06:09:INFO:******Test_003_demographics**************
+12-09-2022 13:10:11:INFO:******Test_003_demographics**************
+12-09-2022 13:13:18:INFO:******Test_003_demographics**************
+12-09-2022 13:13:47:INFO:***********Login successful*****
+12-09-2022 13:13:47:INFO:******* Provoding client details***********
+12-09-2022 13:21:05:INFO:******Test_003_demographics**************
+12-09-2022 13:22:03:INFO:******Test_003_demographics**************
+12-09-2022 13:23:30:INFO:******Test_003_demographics**************
+12-09-2022 14:31:26:INFO:******Test_003_demographics**************
+12-09-2022 14:31:51:INFO:***********Login successful*****
+12-09-2022 14:31:51:INFO:******* Provoding client details***********
+12-09-2022 15:21:43:INFO:******Test_003_demographics**************
+12-09-2022 15:22:32:INFO:******Test_003_demographics**************
+12-09-2022 15:23:33:INFO:******Test_003_demographics**************
+12-09-2022 15:23:57:INFO:***********Login successful*****
+12-09-2022 15:23:57:INFO:******* Provoding client details***********
+12-09-2022 15:34:22:INFO:******Test_003_demographics**************
+12-09-2022 15:34:48:INFO:***********Login successful*****
+12-09-2022 15:34:48:INFO:******* Provoding client details***********
+12-09-2022 15:52:32:INFO:******Test_003_demographics**************
+12-09-2022 15:53:22:INFO:******Test_003_demographics**************
+12-09-2022 15:54:04:INFO:******Test_003_demographics**************
+12-09-2022 15:54:32:INFO:***********Login successful*****
+12-09-2022 15:54:32:INFO:******* Provoding client details***********
+12-09-2022 15:55:15:INFO:******Test_003_demographics**************
+12-09-2022 15:55:31:INFO:***********Login successful*****
+12-09-2022 15:55:31:INFO:******* Provoding client details***********
+13-09-2022 11:06:53:INFO:******Test_003_demographics**************
+13-09-2022 11:07:18:INFO:***********Login successful*****
+13-09-2022 11:07:18:INFO:******* Provoding client details***********
+13-09-2022 11:18:13:INFO:******Test_003_demographics**************
+13-09-2022 11:18:30:INFO:***********Login successful*****
+13-09-2022 11:18:30:INFO:******* Provoding client details***********
+13-09-2022 11:39:04:INFO:******Test_003_demographics**************
+13-09-2022 11:39:28:INFO:***********Login successful*****
+13-09-2022 11:39:28:INFO:******* Provoding client details***********
+13-09-2022 11:40:34:INFO:******Test_003_demographics**************
+13-09-2022 11:40:52:INFO:***********Login successful*****
+13-09-2022 11:40:52:INFO:******* Provoding client details***********
+13-09-2022 12:58:17:INFO:******Test_003_demographics**************
+13-09-2022 12:58:47:INFO:***********Login successful*****
+13-09-2022 12:58:47:INFO:******* Provoding client details***********
+13-09-2022 15:12:57:INFO:******Test_003_demographics**************
+13-09-2022 15:13:21:INFO:***********Login successful*****
+13-09-2022 15:13:21:INFO:******* Provoding client details***********
+13-09-2022 15:20:44:INFO:******Test_003_demographics**************
+13-09-2022 15:21:10:INFO:***********Login successful*****
+13-09-2022 15:21:10:INFO:******* Provoding client details***********
+13-09-2022 15:49:55:INFO:******Test_003_demographics**************
+13-09-2022 15:50:19:INFO:***********Login successful*****
+13-09-2022 15:50:19:INFO:******* Provoding client details***********
+13-09-2022 15:51:42:INFO:******Test_003_demographics**************
+13-09-2022 15:52:03:INFO:***********Login successful*****
+13-09-2022 15:52:03:INFO:******* Provoding client details***********
+13-09-2022 15:53:52:INFO:******Test_003_demographics**************
+13-09-2022 15:54:17:INFO:***********Login successful*****
+13-09-2022 15:54:17:INFO:******* Provoding client details***********
+13-09-2022 16:39:41:INFO:******Test_003_demographics**************
+13-09-2022 16:40:05:INFO:***********Login successful*****
+13-09-2022 16:40:05:INFO:******* Provoding client details***********
+14-09-2022 09:53:19:INFO:******Test_003_demographics**************
+14-09-2022 09:53:42:INFO:***********Login successful*****
+14-09-2022 09:53:42:INFO:******* Provoding client details***********
+08-11-2022 15:16:20:INFO:************Test_01_Login*********
+08-11-2022 15:16:20:INFO:************Verifying Home page title*********
+08-11-2022 15:16:35:INFO:************Home page tilte test is passed*********
+08-11-2022 15:16:37:INFO:************Verifying Login page title*********
+08-11-2022 15:16:49:INFO:************Login page test is passed*********
+08-11-2022 15:17:04:INFO:************Login page tilte test is passed*********
+08-11-2022 15:22:13:INFO:******Test_003_demographics**************
+08-11-2022 15:22:26:INFO:***********Login successful*****
+08-11-2022 15:22:26:INFO:******* Provoding client details***********
+08-11-2022 15:26:14:INFO:******Test_003_demographics**************
+08-11-2022 15:26:27:INFO:***********Login successful*****
+08-11-2022 15:26:27:INFO:******* Provoding client details***********
+08-11-2022 15:34:54:INFO:******Test_003_demographics**************
+08-11-2022 15:35:07:INFO:***********Login successful*****
+08-11-2022 15:35:07:INFO:******* Provoding client details***********
+09-11-2022 11:01:49:INFO:******Test_003_demographics**************
+09-11-2022 11:02:02:INFO:***********Login successful*****
+09-11-2022 11:02:02:INFO:******* Provoding client details***********
+09-11-2022 11:08:04:INFO:******Test_003_demographics**************
+09-11-2022 11:08:17:INFO:***********Login successful*****
+09-11-2022 11:08:17:INFO:******* Provoding client details***********
+09-11-2022 11:09:41:INFO:******Test_003_demographics**************
+09-11-2022 11:09:54:INFO:***********Login successful*****
+09-11-2022 11:09:54:INFO:******* Provoding client details***********
+09-11-2022 16:04:17:INFO:******Test_003_demographics**************
+09-11-2022 16:04:29:INFO:***********Login successful*****
+09-11-2022 16:04:29:INFO:******* Provoding client details***********

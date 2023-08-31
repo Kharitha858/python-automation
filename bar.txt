@@ -1,0 +1,7 @@
+hello everyone happy deepavali
+welcome to python world
+python is general perpose programming language
+hello everyone happy deepavali
+How would I go about getting
+the first N lines of a text file in python?
+Will the OS being used have any effect on the implementation?
