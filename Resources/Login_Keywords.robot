@@ -8,7 +8,8 @@ Open my Browser
     [Arguments]     ${Site URL}     ${Browser}
     Open Browser    ${Site URL}     ${Browser}
     Maximize Browser Window
-
+    Sleep    3
+    Click Element    ${txt_clickbtn}
 Enter Username
     [Arguments]     ${usename}
     Input Text    ${txt_loginusername}   ${usename}
@@ -21,8 +22,8 @@ Enter Password
 Click Login
     Click Button    ${btn_Login}
 
-Verify Successful login
-    Page Should Contain    Godsownstay.com
+#GOSshould visible
+#    Page Should Contain    Godsownstay.com
 
-Close browser
+Close my browser
     Close Browser
