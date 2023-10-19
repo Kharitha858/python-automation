@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 6.1.1 (Python 3.11.3 on win32)" generated="20231019 16:00:56.421" rpa="false" schemaversion="4">
+<suite id="s1" name="Suites">
+<suite id="s1-s1" name="Forloopdemo" source="C:\Users\CBT\PycharmProjects\GodsOwnStay\Testcases\Forloopdemo.robot">
+<test id="s1-s1-t1" name="Template with FOR loop7" line="51">
+<kw name="Create List" library="BuiltIn">
+<var>@{LIST1}</var>
+<arg>1 2 3 4 5</arg>
+<doc>Returns a list containing given items.</doc>
+<msg timestamp="20231019 16:00:56.756" level="INFO">@{LIST1} = [ 1 2 3 4 5 ]</msg>
+<status status="PASS" starttime="20231019 16:00:56.755" endtime="20231019 16:00:56.756"/>
+</kw>
+<kw name="Create List" library="BuiltIn">
+<var>@{LIST2}</var>
+<arg>6 7 8 9 10</arg>
+<doc>Returns a list containing given items.</doc>
+<msg timestamp="20231019 16:00:56.757" level="INFO">@{LIST2} = [ 6 7 8 9 10 ]</msg>
+<status status="PASS" starttime="20231019 16:00:56.756" endtime="20231019 16:00:56.757"/>
+</kw>
+<for flavor="IN">
+<var>${i}</var>
+<value>@{LIST1}</value>
+<iter>
+<var name="${i}">1 2 3 4 5</var>
+<kw name="Log To Console" library="BuiltIn">
+<arg>${i}</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" starttime="20231019 16:00:56.757" endtime="20231019 16:00:56.758"/>
+</kw>
+<for flavor="IN">
+<var>${j}</var>
+<value>@{LIST2}</value>
+<iter>
+<var name="${j}">6 7 8 9 10</var>
+<kw name="Log To Console" library="BuiltIn">
+<arg>${j}</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" starttime="20231019 16:00:56.759" endtime="20231019 16:00:56.759"/>
+</kw>
+<status status="PASS" starttime="20231019 16:00:56.759" endtime="20231019 16:00:56.759"/>
+</iter>
+<status status="PASS" starttime="20231019 16:00:56.758" endtime="20231019 16:00:56.759"/>
+</for>
+<status status="PASS" starttime="20231019 16:00:56.757" endtime="20231019 16:00:56.760"/>
+</iter>
+<status status="PASS" starttime="20231019 16:00:56.757" endtime="20231019 16:00:56.760"/>
+</for>
+<status status="PASS" starttime="20231019 16:00:56.754" endtime="20231019 16:00:56.760"/>
+</test>
+<status status="PASS" starttime="20231019 16:00:56.457" endtime="20231019 16:00:56.761"/>
+</suite>
+<status status="PASS" starttime="20231019 16:00:56.436" endtime="20231019 16:00:56.762"/>
+</suite>
+<statistics>
+<total>
+<stat pass="1" fail="0" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="1" fail="0" skip="0" id="s1" name="Suites">Suites</stat>
+<stat pass="1" fail="0" skip="0" id="s1-s1" name="Forloopdemo">Suites.Forloopdemo</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>

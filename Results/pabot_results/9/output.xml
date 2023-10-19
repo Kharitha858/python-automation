@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 6.1.1 (Python 3.11.3 on win32)" generated="20231019 16:01:10.421" rpa="false" schemaversion="4">
+<suite id="s1" name="Suites">
+<suite id="s1-s1" name="HTML table demo" source="C:\Users\CBT\PycharmProjects\GodsOwnStay\Testcases\HTML_table_demo.robot">
+<test id="s1-s1-t1" name="HandlingHTML_table" line="4">
+<kw name="Open Browser" library="SeleniumLibrary">
+<arg>https://testautomationpractice.blogspot.com/</arg>
+<arg>chrome</arg>
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<msg timestamp="20231019 16:01:10.711" level="INFO">Opening browser 'chrome' to base url 'https://testautomationpractice.blogspot.com/'.</msg>
+<status status="PASS" starttime="20231019 16:01:10.710" endtime="20231019 16:01:16.182"/>
+</kw>
+<kw name="Maximize Browser Window" library="SeleniumLibrary">
+<doc>Maximizes current browser window.</doc>
+<status status="PASS" starttime="20231019 16:01:16.182" endtime="20231019 16:01:16.491"/>
+</kw>
+<kw name="Get Element Count" library="SeleniumLibrary">
+<var>${rows}</var>
+<arg>xpath://table[@name='BookTable']/tbody/tr</arg>
+<doc>Returns the number of elements matching ``locator``.</doc>
+<msg timestamp="20231019 16:01:16.518" level="INFO">${rows} = 7</msg>
+<status status="PASS" starttime="20231019 16:01:16.492" endtime="20231019 16:01:16.518"/>
+</kw>
+<kw name="Log To Console" library="BuiltIn">
+<arg>${rows}</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" starttime="20231019 16:01:16.518" endtime="20231019 16:01:16.519"/>
+</kw>
+<kw name="Get Element Count" library="SeleniumLibrary">
+<var>${colns}</var>
+<arg>xpath://table[@name='BookTable']/tbody/tr[1]/th</arg>
+<doc>Returns the number of elements matching ``locator``.</doc>
+<msg timestamp="20231019 16:01:16.543" level="INFO">${colns} = 4</msg>
+<status status="PASS" starttime="20231019 16:01:16.521" endtime="20231019 16:01:16.543"/>
+</kw>
+<kw name="Log To Console" library="BuiltIn">
+<arg>${colns}</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" starttime="20231019 16:01:16.544" endtime="20231019 16:01:16.544"/>
+</kw>
+<kw name="Get Text" library="SeleniumLibrary">
+<var>${data}</var>
+<arg>xpath://table[@name='BookTable']/tbody/tr[7]/td[1]</arg>
+<doc>Returns the text value of the element identified by ``locator``.</doc>
+<msg timestamp="20231019 16:01:16.583" level="INFO">${data} = Master In JS</msg>
+<status status="PASS" starttime="20231019 16:01:16.544" endtime="20231019 16:01:16.583"/>
+</kw>
+<kw name="Log To Console" library="BuiltIn">
+<arg>${data}</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" starttime="20231019 16:01:16.584" endtime="20231019 16:01:16.585"/>
+</kw>
+<kw name="Table Column Should Contain" library="SeleniumLibrary">
+<arg>xpath://table[@name="BookTable"]</arg>
+<arg>2</arg>
+<arg>Author</arg>
+<doc>Verifies table column contains text ``expected``.</doc>
+<status status="PASS" starttime="20231019 16:01:16.585" endtime="20231019 16:01:16.655"/>
+</kw>
+<kw name="Table Row Should Contain" library="SeleniumLibrary">
+<arg>xpath://table[@name="BookTable"]</arg>
+<arg>7</arg>
+<arg>Amit</arg>
+<doc>Verifies that table row contains text ``expected``.</doc>
+<status status="PASS" starttime="20231019 16:01:16.656" endtime="20231019 16:01:16.709"/>
+</kw>
+<kw name="Table Cell Should Contain" library="SeleniumLibrary">
+<arg>xpath://table[@name="BookTable"]</arg>
+<arg>4</arg>
+<arg>3</arg>
+<arg>Javascript</arg>
+<doc>Verifies table cell contains text ``expected``.</doc>
+<msg timestamp="20231019 16:01:16.797" level="INFO">Table cell contains 'Javascript'.</msg>
+<status status="PASS" starttime="20231019 16:01:16.709" endtime="20231019 16:01:16.797"/>
+</kw>
+<kw name="Table Header Should Contain" library="SeleniumLibrary">
+<arg>xpath://table[@name="BookTable"]</arg>
+<arg>Price</arg>
+<doc>Verifies table header contains text ``expected``.</doc>
+<status status="PASS" starttime="20231019 16:01:16.797" endtime="20231019 16:01:17.023"/>
+</kw>
+<status status="PASS" starttime="20231019 16:01:10.709" endtime="20231019 16:01:17.024"/>
+</test>
+<status status="PASS" starttime="20231019 16:01:10.456" endtime="20231019 16:01:17.024"/>
+</suite>
+<status status="PASS" starttime="20231019 16:01:10.435" endtime="20231019 16:01:17.025"/>
+</suite>
+<statistics>
+<total>
+<stat pass="1" fail="0" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="1" fail="0" skip="0" id="s1" name="Suites">Suites</stat>
+<stat pass="1" fail="0" skip="0" id="s1-s1" name="HTML table demo">Suites.HTML table demo</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>

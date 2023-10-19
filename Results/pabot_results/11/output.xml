@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 6.1.1 (Python 3.11.3 on win32)" generated="20231019 16:01:20.422" rpa="false" schemaversion="4">
+<suite id="s1" name="Suites">
+<suite id="s1-s1" name="Handlingradiocheckboxes" source="C:\Users\CBT\PycharmProjects\GodsOwnStay\Testcases\Handlingradiocheckboxes.robot">
+<test id="s1-s1-t1" name="Testing radiobutton and checkbox" line="8">
+<kw name="Open Browser" library="SeleniumLibrary">
+<arg>https://www.techlistic.com/p/selenium-practice-form.html</arg>
+<arg>chrome</arg>
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<msg timestamp="20231019 16:01:21.521" level="INFO">Opening browser 'chrome' to base url 'https://www.techlistic.com/p/selenium-practice-form.html'.</msg>
+<status status="PASS" starttime="20231019 16:01:21.520" endtime="20231019 16:01:23.666"/>
+</kw>
+<kw name="Maximize Browser Window" library="SeleniumLibrary">
+<doc>Maximizes current browser window.</doc>
+<status status="PASS" starttime="20231019 16:01:23.666" endtime="20231019 16:02:00.662"/>
+</kw>
+<kw name="Select Radio Button" library="SeleniumLibrary">
+<arg>sex</arg>
+<arg>Female</arg>
+<doc>Sets the radio button group ``group_name`` to ``value``.</doc>
+<msg timestamp="20231019 16:02:00.664" level="INFO">Selecting 'Female' from radio button 'sex'.</msg>
+<status status="PASS" starttime="20231019 16:02:00.663" endtime="20231019 16:02:00.787"/>
+</kw>
+<kw name="Select Radio Button" library="SeleniumLibrary">
+<arg>exp</arg>
+<arg>2</arg>
+<doc>Sets the radio button group ``group_name`` to ``value``.</doc>
+<msg timestamp="20231019 16:02:00.788" level="INFO">Selecting '2' from radio button 'exp'.</msg>
+<status status="PASS" starttime="20231019 16:02:00.788" endtime="20231019 16:02:00.856"/>
+</kw>
+<kw name="Select Checkbox" library="SeleniumLibrary">
+<arg>Automation Tester</arg>
+<doc>Selects the checkbox identified by ``locator``.</doc>
+<msg timestamp="20231019 16:02:00.857" level="INFO">Selecting checkbox 'Automation Tester'.</msg>
+<status status="PASS" starttime="20231019 16:02:00.856" endtime="20231019 16:02:00.926"/>
+</kw>
+<kw name="Select Checkbox" library="SeleniumLibrary">
+<arg>Selenium Webdriver</arg>
+<doc>Selects the checkbox identified by ``locator``.</doc>
+<msg timestamp="20231019 16:02:00.927" level="INFO">Selecting checkbox 'Selenium Webdriver'.</msg>
+<status status="PASS" starttime="20231019 16:02:00.927" endtime="20231019 16:02:01.139"/>
+</kw>
+<kw name="Unselect Checkbox" library="SeleniumLibrary">
+<arg>Selenium Webdriver</arg>
+<doc>Removes the selection of checkbox identified by ``locator``.</doc>
+<msg timestamp="20231019 16:02:01.140" level="INFO">Unselecting checkbox 'Selenium Webdriver'.</msg>
+<status status="PASS" starttime="20231019 16:02:01.139" endtime="20231019 16:02:01.222"/>
+</kw>
+<status status="PASS" starttime="20231019 16:01:21.519" endtime="20231019 16:02:01.223"/>
+</test>
+<status status="PASS" starttime="20231019 16:01:20.484" endtime="20231019 16:02:01.223"/>
+</suite>
+<status status="PASS" starttime="20231019 16:01:20.446" endtime="20231019 16:02:01.224"/>
+</suite>
+<statistics>
+<total>
+<stat pass="1" fail="0" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="1" fail="0" skip="0" id="s1" name="Suites">Suites</stat>
+<stat pass="1" fail="0" skip="0" id="s1-s1" name="Handlingradiocheckboxes">Suites.Handlingradiocheckboxes</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>

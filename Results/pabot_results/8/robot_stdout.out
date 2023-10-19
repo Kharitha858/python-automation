@@ -1,0 +1,28 @@
+==============================================================================
+Suites                                                                        
+==============================================================================
+Suites.Groupingtestsusing tags                                                
+==============================================================================
+TC1 User Registartion Test                                            this is user registration test
+User registration test is over
+| PASS |
+------------------------------------------------------------------------------
+TC2 user login test                                                   this is login test
+login test is over
+| PASS |
+------------------------------------------------------------------------------
+TC3 change user settings                                              this is change user settings test
+Change user settings is over
+| PASS |
+------------------------------------------------------------------------------
+TC4 Logout test                                                       This is logout test
+logout test is over
+| PASS |
+------------------------------------------------------------------------------
+Suites.Groupingtestsusing tags                                        | PASS |
+4 tests, 4 passed, 0 failed
+==============================================================================
+Suites                                                                | PASS |
+4 tests, 4 passed, 0 failed
+==============================================================================
+Output:  C:\Users\CBT\PycharmProjects\GodsOwnStay\Results\pabot_results\8\output.xml

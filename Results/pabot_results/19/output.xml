@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 6.1.1 (Python 3.11.3 on win32)" generated="20231019 16:03:59.808" rpa="false" schemaversion="4">
+<suite id="s1" name="Suites">
+<suite id="s1-s1" name="TC1" source="C:\Users\CBT\PycharmProjects\GodsOwnStay\Testcases\TC1.robot">
+<test id="s1-s1-t1" name="LoginTest" line="10">
+<kw name="Open Browser" library="SeleniumLibrary">
+<arg>http://10.10.20.141:3000/</arg>
+<arg>chrome</arg>
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<msg timestamp="20231019 16:04:00.210" level="INFO">Opening browser 'chrome' to base url 'http://10.10.20.141:3000/'.</msg>
+<msg timestamp="20231019 16:04:09.856" level="INFO" html="true">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;a href="selenium-screenshot-1.png"&gt;&lt;img src="selenium-screenshot-1.png" width="800px"&gt;&lt;/a&gt;</msg>
+<msg timestamp="20231019 16:04:09.857" level="FAIL">WebDriverException: Message: unknown error: net::ERR_CONNECTION_REFUSED
+  (Session info: chrome=118.0.5993.72)
+Stacktrace:
+	GetHandleVerifier [0x00007FF683AA8EF2+54786]
+	(No symbol) [0x00007FF683A15612]
+	(No symbol) [0x00007FF6838CA64B]
+	(No symbol) [0x00007FF6838C63F3]
+	(No symbol) [0x00007FF6838B971C]
+	(No symbol) [0x00007FF6838BA977]
+	(No symbol) [0x00007FF6838B9B13]
+	(No symbol) [0x00007FF6838B8B8E]
+	(No symbol) [0x00007FF6838B8B33]
+	(No symbol) [0x00007FF6838B73AA]
+	(No symbol) [0x00007FF6838B7CA3]
+	(No symbol) [0x00007FF6838CCA5F]
+	(No symbol) [0x00007FF683945077]
+	(No symbol) [0x00007FF68392BE6A]
+	(No symbol) [0x00007FF683944D02]
+	(No symbol) [0x00007FF68392BC43]
+	(No symbol) [0x00007FF683900941]
+	(No symbol) [0x00007FF683901B84]
+	GetHandleVerifier [0x00007FF683DF7F52+3524194]
+	GetHandleVerifier [0x00007FF683E4D800+3874576]
+	GetHandleVerifier [0x00007FF683E45D7F+3843215]
+	GetHandleVerifier [0x00007FF683B45086+694166]
+	(No symbol) [0x00007FF683A20A88]
+	(No symbol) [0x00007FF683A1CA94]
+	(No symbol) [0x00007FF683A1CBC2]
+	(No symbol) [0x00007FF683A0CC83]
+	BaseThreadInitThunk [0x00007FF9615D7034+20]
+	RtlUserThreadStart [0x00007FF962362651+33]
+</msg>
+<status status="FAIL" starttime="20231019 16:04:00.210" endtime="20231019 16:04:09.861"/>
+</kw>
+<kw name="Maximize Browser Window" library="SeleniumLibrary">
+<doc>Maximizes current browser window.</doc>
+<status status="NOT RUN" starttime="20231019 16:04:09.862" endtime="20231019 16:04:09.862"/>
+</kw>
+<kw name="Click Element" library="SeleniumLibrary">
+<arg>xpath://div[@class='loginheadbtn']</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<status status="NOT RUN" starttime="20231019 16:04:09.862" endtime="20231019 16:04:09.862"/>
+</kw>
+<kw name="Click Element" library="SeleniumLibrary">
+<arg>xpath://span[normalize-space()='Login as Admin']</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<status status="NOT RUN" starttime="20231019 16:04:09.863" endtime="20231019 16:04:09.863"/>
+</kw>
+<kw name="Input Text" library="SeleniumLibrary">
+<arg>xpath://input[@placeholder='Your Username*']</arg>
+<arg>raunakali</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<status status="NOT RUN" starttime="20231019 16:04:09.863" endtime="20231019 16:04:09.863"/>
+</kw>
+<kw name="Input Text" library="SeleniumLibrary">
+<arg>xpath://input[@placeholder='Your Password']</arg>
+<arg>raunak@25</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<status status="NOT RUN" starttime="20231019 16:04:09.863" endtime="20231019 16:04:09.863"/>
+</kw>
+<kw name="Click Element" library="SeleniumLibrary">
+<arg>xpath://button[@type='submit']</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<status status="NOT RUN" starttime="20231019 16:04:09.863" endtime="20231019 16:04:09.863"/>
+</kw>
+<kw name="Close Browser" library="SeleniumLibrary">
+<doc>Closes the current browser.</doc>
+<status status="NOT RUN" starttime="20231019 16:04:09.864" endtime="20231019 16:04:09.864"/>
+</kw>
+<status status="FAIL" starttime="20231019 16:04:00.209" endtime="20231019 16:04:09.864">WebDriverException: Message: unknown error: net::ERR_CONNECTION_REFUSED
+  (Session info: chrome=118.0.5993.72)
+Stacktrace:
+	GetHandleVerifier [0x00007FF683AA8EF2+54786]
+	(No symbol) [0x00007FF683A15612]
+	(No symbol) [0x00007FF6838CA64B]
+	(No symbol) [0x00007FF6838C63F3]
+	(No symbol) [0x00007FF6838B971C]
+	(No symbol) [0x00007FF6838BA977]
+	(No symbol) [0x00007FF6838B9B13]
+	(No symbol) [0x00007FF6838B8B8E]
+	(No symbol) [0x00007FF6838B8B33]
+	(No symbol) [0x00007FF6838B73AA]
+	(No symbol) [0x00007FF6838B7CA3]
+	(No symbol) [0x00007FF6838CCA5F]
+	(No symbol) [0x00007FF683945077]
+	(No symbol) [0x00007FF68392BE6A]
+	(No symbol) [0x00007FF683944D02]
+	(No symbol) [0x00007FF68392BC43]
+	(No symbol) [0x00007FF683900941]
+	(No symbol) [0x00007FF683901B84]
+	GetHandleVerifier [0x00007FF683DF7F52+3524194]
+	GetHandleVerifier [0x00007FF683E4D800+3874576]
+	GetHandleVerifier [0x00007FF683E45D7F+3843215]
+	GetHandleVerifier [0x00007FF683B45086+694166]
+	(No symbol) [0x00007FF683A20A88]
+	(No symbol) [0x00007FF683A1CA94]
+	(No symbol) [0x00007FF683A1CBC2]
+	(No symbol) [0x00007FF683A0CC83]
+	BaseThreadInitThunk [0x00007FF9615D7034+20]
+	RtlUserThreadStart [0x00007FF962362651+33]
+</status>
+</test>
+<status status="FAIL" starttime="20231019 16:03:59.845" endtime="20231019 16:04:09.865"/>
+</suite>
+<status status="FAIL" starttime="20231019 16:03:59.823" endtime="20231019 16:04:09.866"/>
+</suite>
+<statistics>
+<total>
+<stat pass="0" fail="1" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="0" fail="1" skip="0" id="s1" name="Suites">Suites</stat>
+<stat pass="0" fail="1" skip="0" id="s1-s1" name="TC1">Suites.TC1</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>

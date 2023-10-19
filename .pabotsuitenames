@@ -1,0 +1,27 @@
+datasources:59bec444a73ed1a606863bc3d92b61b6951e22ef
+commandlineoptions:9f8598a690c7367accf83ead504756ddd374acc9
+suitesfrom:no-suites-from-option
+file:8aae4c1a5d4074ac467a4958c2fcee589ac21dfd
+--suite Suites.Alerts
+--suite Suites.Capturescreenshots
+--suite Suites.DBTesting
+--suite Suites.DDT1
+--suite Suites.DDT2 Excel
+--suite Suites.DDT3 CSV
+--suite Suites.Forloopdemo
+--suite Suites.GetAll Links
+--suite Suites.Groupingtestsusing tags
+--suite Suites.HTML table demo
+--suite Suites.Handlingdropdownlists2
+--suite Suites.Handlingradiocheckboxes
+--suite Suites.Inputbox
+--suite Suites.LOGIN Test
+--suite Suites.Mouseactions
+--suite Suites.Navigational keywords
+--suite Suites.Scrolling page
+--suite Suites.SetupandTeardown
+--suite Suites.Switchingbrowsers
+--suite Suites.TC1
+--suite Suites.Userkeywords witharg returnval
+--suite Suites.Userkeywordswitharg
+--suite Suites.Userkeywordswtoutarg

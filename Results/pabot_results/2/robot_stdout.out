@@ -1,0 +1,66 @@
+==============================================================================
+Suites                                                                        
+==============================================================================
+Suites.DBTesting                                                              
+==============================================================================
+Multiple Records                                                      None
+| PASS |
+------------------------------------------------------------------------------
+Check Bairavi record present in person table                            
+  Traceback (most recent call last):
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    File  C:\Users\CBT\PycharmProjects\GodsOwnStay\Testcases\DBTesting.robot:30
+    T:  Check Bairavi record present in person table    
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    File  C:\Users\CBT\PycharmProjects\GodsOwnStay\Testcases\DBTesting.robot:31
+      Check If Exists In Database    select id from scott.person where first_name="Bairavi";
+______________________________________________________________________________
+| FAIL |
+Expected to have have at least one row, but got 0 rows from: 'select id from scott.person where first_name="Bairavi";'
+------------------------------------------------------------------------------
+Check David record not present in person table                        | PASS |
+------------------------------------------------------------------------------
+Check person table exists in scott database                           | PASS |
+------------------------------------------------------------------------------
+Verify row count is zero                                                
+  Traceback (most recent call last):
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    File  C:\Users\CBT\PycharmProjects\GodsOwnStay\Testcases\DBTesting.robot:38
+    T:  Verify row count is zero    
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    File  C:\Users\CBT\PycharmProjects\GodsOwnStay\Testcases\DBTesting.robot:39
+      Row Count Is 0    select id from scott.person where first_name="K";
+______________________________________________________________________________
+| FAIL |
+Expected 0 rows, but 1 were returned from: 'select id from scott.person where first_name="K";'
+------------------------------------------------------------------------------
+Verify row count is equal to some value                               | PASS |
+------------------------------------------------------------------------------
+Verify row count is greater than some value                             
+  Traceback (most recent call last):
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    File  C:\Users\CBT\PycharmProjects\GodsOwnStay\Testcases\DBTesting.robot:44
+    T:  Verify row count is greater than some value    
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    File  C:\Users\CBT\PycharmProjects\GodsOwnStay\Testcases\DBTesting.robot:45
+      Row Count Is Greater Than X    select id from scott.person where first_name="Bairavi";    0
+______________________________________________________________________________
+| FAIL |
+Expected more than 0 rows, but 0 were returned from 'select id from scott.person where first_name="Bairavi";'
+------------------------------------------------------------------------------
+Verify row coount is less than some value                             | PASS |
+------------------------------------------------------------------------------
+Update record in person table                                         None
+| PASS |
+------------------------------------------------------------------------------
+Retrieve records from person table                                    | PASS |
+------------------------------------------------------------------------------
+Delete record from person table                                       | PASS |
+------------------------------------------------------------------------------
+Suites.DBTesting                                                      | FAIL |
+11 tests, 8 passed, 3 failed
+==============================================================================
+Suites                                                                | FAIL |
+11 tests, 8 passed, 3 failed
+==============================================================================
+Output:  C:\Users\CBT\PycharmProjects\GodsOwnStay\Results\pabot_results\2\output.xml

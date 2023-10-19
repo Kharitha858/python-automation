@@ -1,0 +1,54 @@
+==============================================================================
+Suites                                                                        
+==============================================================================
+Suites.TC1                                                                    
+==============================================================================
+LoginTest                                                               
+  Traceback (most recent call last):
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    File  C:\Users\CBT\PycharmProjects\GodsOwnStay\Testcases\TC1.robot:10
+    T:  LoginTest    
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    File  C:\Users\CBT\PycharmProjects\GodsOwnStay\Testcases\TC1.robot:12
+      Open Browser    http://10.10.20.141:3000/    chrome
+______________________________________________________________________________
+| FAIL |
+WebDriverException: Message: unknown error: net::ERR_CONNECTION_REFUSED
+  (Session info: chrome=118.0.5993.72)
+Stacktrace:
+	GetHandleVerifier [0x00007FF683AA8EF2+54786]
+	(No symbol) [0x00007FF683A15612]
+	(No symbol) [0x00007FF6838CA64B]
+	(No symbol) [0x00007FF6838C63F3]
+	(No symbol) [0x00007FF6838B971C]
+	(No symbol) [0x00007FF6838BA977]
+	(No symbol) [0x00007FF6838B9B13]
+	(No symbol) [0x00007FF6838B8B8E]
+	(No symbol) [0x00007FF6838B8B33]
+	(No symbol) [0x00007FF6838B73AA]
+	(No symbol) [0x00007FF6838B7CA3]
+	(No symbol) [0x00007FF6838CCA5F]
+	(No symbol) [0x00007FF683945077]
+	(No symbol) [0x00007FF68392BE6A]
+	(No symbol) [0x00007FF683944D02]
+	(No symbol) [0x00007FF68392BC43]
+	(No symbol) [0x00007FF683900941]
+	(No symbol) [0x00007FF683901B84]
+	GetHandleVerifier [0x00007FF683DF7F52+3524194]
+	GetHandleVerifier [0x00007FF683E4D800+3874576]
+	GetHandleVerifier [0x00007FF683E45D7F+3843215]
+	GetHandleVerifier [0x00007FF683B45086+694166]
+	(No symbol) [0x00007FF683A20A88]
+	(No symbol) [0x00007FF683A1CA94]
+	(No symbol) [0x00007FF683A1CBC2]
+	(No symbol) [0x00007FF683A0CC83]
+	BaseThreadInitThunk [0x00007FF9615D7034+20]
+	RtlUserThreadStart [0x00007FF962362651+33]
+------------------------------------------------------------------------------
+Suites.TC1                                                            | FAIL |
+1 test, 0 passed, 1 failed
+==============================================================================
+Suites                                                                | FAIL |
+1 test, 0 passed, 1 failed
+==============================================================================
+Output:  C:\Users\CBT\PycharmProjects\GodsOwnStay\Results\pabot_results\19\output.xml

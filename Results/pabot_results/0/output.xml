@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 6.1.1 (Python 3.11.3 on win32)" generated="20231019 15:58:30.021" rpa="false" schemaversion="4">
+<suite id="s1" name="Suites">
+<suite id="s1-s1" name="Alerts" source="C:\Users\CBT\PycharmProjects\GodsOwnStay\Testcases\alerts.robot">
+<test id="s1-s1-t1" name="HandlingAlerts" line="8">
+<kw name="Open Browser" library="SeleniumLibrary">
+<arg>https://testautomationpractice.blogspot.com/</arg>
+<arg>chrome</arg>
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<msg timestamp="20231019 15:58:30.491" level="INFO">Opening browser 'chrome' to base url 'https://testautomationpractice.blogspot.com/'.</msg>
+<status status="PASS" starttime="20231019 15:58:30.490" endtime="20231019 15:58:37.950"/>
+</kw>
+<kw name="Maximize Browser Window" library="SeleniumLibrary">
+<doc>Maximizes current browser window.</doc>
+<status status="PASS" starttime="20231019 15:58:37.950" endtime="20231019 15:58:38.126"/>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<arg>3</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<msg timestamp="20231019 15:58:41.128" level="INFO">Slept 3 seconds</msg>
+<status status="PASS" starttime="20231019 15:58:38.127" endtime="20231019 15:58:41.128"/>
+</kw>
+<kw name="Click Element" library="SeleniumLibrary">
+<arg>//button[text()="Alert"]</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<msg timestamp="20231019 15:58:41.130" level="INFO">Clicking element '//button[text()="Alert"]'.</msg>
+<status status="PASS" starttime="20231019 15:58:41.128" endtime="20231019 15:58:41.232"/>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<arg>3</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<msg timestamp="20231019 15:58:44.233" level="INFO">Slept 3 seconds</msg>
+<status status="PASS" starttime="20231019 15:58:41.233" endtime="20231019 15:58:44.233"/>
+</kw>
+<kw name="Handle Alert" library="SeleniumLibrary">
+<arg>leave</arg>
+<doc>Handles the current alert and returns its message.</doc>
+<msg timestamp="20231019 15:58:44.234" level="INFO">HANDLE::&lt;class 'NoneType'&gt;::None</msg>
+<status status="PASS" starttime="20231019 15:58:44.233" endtime="20231019 15:58:44.237"/>
+</kw>
+<status status="PASS" starttime="20231019 15:58:30.490" endtime="20231019 15:58:44.237"/>
+</test>
+<status status="PASS" starttime="20231019 15:58:30.060" endtime="20231019 15:58:44.238"/>
+</suite>
+<status status="PASS" starttime="20231019 15:58:30.038" endtime="20231019 15:58:44.240"/>
+</suite>
+<statistics>
+<total>
+<stat pass="1" fail="0" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="1" fail="0" skip="0" id="s1" name="Suites">Suites</stat>
+<stat pass="1" fail="0" skip="0" id="s1-s1" name="Alerts">Suites.Alerts</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>

@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 6.1.1 (Python 3.11.3 on win32)" generated="20231019 16:03:18.011" rpa="false" schemaversion="4">
+<suite id="s1" name="Suites">
+<suite id="s1-s1" name="SetupandTeardown" source="C:\Users\CBT\PycharmProjects\GodsOwnStay\Testcases\SetupandTeardown.robot">
+<kw name="Log To Console" library="BuiltIn" type="SETUP">
+<arg>Opening Browser</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" starttime="20231019 16:03:18.056" endtime="20231019 16:03:18.056"/>
+</kw>
+<test id="s1-s1-t1" name="TC1 prepaid Recharge" line="10">
+<kw name="Log To Console" library="BuiltIn" type="SETUP">
+<arg>opening application</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" starttime="20231019 16:03:18.057" endtime="20231019 16:03:18.059"/>
+</kw>
+<kw name="Log To Console" library="BuiltIn">
+<arg>this is prepaid recharge</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" starttime="20231019 16:03:18.059" endtime="20231019 16:03:18.060"/>
+</kw>
+<kw name="Log To Console" library="BuiltIn" type="TEARDOWN">
+<arg>closing application</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" starttime="20231019 16:03:18.060" endtime="20231019 16:03:18.061"/>
+</kw>
+<status status="PASS" starttime="20231019 16:03:18.056" endtime="20231019 16:03:18.061"/>
+</test>
+<test id="s1-s1-t2" name="TC2 postpaid Recharge" line="13">
+<kw name="Log To Console" library="BuiltIn" type="SETUP">
+<arg>opening application</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" starttime="20231019 16:03:18.062" endtime="20231019 16:03:18.062"/>
+</kw>
+<kw name="Log To Console" library="BuiltIn">
+<arg>this is postpaid recharge</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" starttime="20231019 16:03:18.063" endtime="20231019 16:03:18.063"/>
+</kw>
+<kw name="Log To Console" library="BuiltIn" type="TEARDOWN">
+<arg>closing application</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" starttime="20231019 16:03:18.063" endtime="20231019 16:03:18.064"/>
+</kw>
+<status status="PASS" starttime="20231019 16:03:18.061" endtime="20231019 16:03:18.064"/>
+</test>
+<test id="s1-s1-t3" name="TC3 search" line="16">
+<kw name="Log To Console" library="BuiltIn" type="SETUP">
+<arg>opening application</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" starttime="20231019 16:03:18.065" endtime="20231019 16:03:18.065"/>
+</kw>
+<kw name="Log To Console" library="BuiltIn">
+<arg>this is a search test case</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" starttime="20231019 16:03:18.066" endtime="20231019 16:03:18.066"/>
+</kw>
+<kw name="Log To Console" library="BuiltIn" type="TEARDOWN">
+<arg>closing application</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" starttime="20231019 16:03:18.066" endtime="20231019 16:03:18.067"/>
+</kw>
+<status status="PASS" starttime="20231019 16:03:18.064" endtime="20231019 16:03:18.067"/>
+</test>
+<test id="s1-s1-t4" name="TC4 advance search" line="19">
+<kw name="Log To Console" library="BuiltIn" type="SETUP">
+<arg>opening application</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" starttime="20231019 16:03:18.067" endtime="20231019 16:03:18.068"/>
+</kw>
+<kw name="Log To Console" library="BuiltIn">
+<arg>this is a advance search testcase</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" starttime="20231019 16:03:18.068" endtime="20231019 16:03:18.068"/>
+</kw>
+<kw name="Log To Console" library="BuiltIn" type="TEARDOWN">
+<arg>closing application</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" starttime="20231019 16:03:18.069" endtime="20231019 16:03:18.069"/>
+</kw>
+<status status="PASS" starttime="20231019 16:03:18.067" endtime="20231019 16:03:18.069"/>
+</test>
+<kw name="Log To Console" library="BuiltIn" type="TEARDOWN">
+<arg>Closing Browser</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" starttime="20231019 16:03:18.070" endtime="20231019 16:03:18.070"/>
+</kw>
+<status status="PASS" starttime="20231019 16:03:18.052" endtime="20231019 16:03:18.070"/>
+</suite>
+<status status="PASS" starttime="20231019 16:03:18.026" endtime="20231019 16:03:18.071"/>
+</suite>
+<statistics>
+<total>
+<stat pass="4" fail="0" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="4" fail="0" skip="0" id="s1" name="Suites">Suites</stat>
+<stat pass="4" fail="0" skip="0" id="s1-s1" name="SetupandTeardown">Suites.SetupandTeardown</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>

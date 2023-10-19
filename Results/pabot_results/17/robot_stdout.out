@@ -1,0 +1,34 @@
+==============================================================================
+Suites                                                                        
+==============================================================================
+Suites.SetupandTeardown                                                       
+==============================================================================
+Opening Browser
+TC1 prepaid Recharge                                                  opening application
+this is prepaid recharge
+closing application
+| PASS |
+------------------------------------------------------------------------------
+TC2 postpaid Recharge                                                 opening application
+this is postpaid recharge
+closing application
+| PASS |
+------------------------------------------------------------------------------
+TC3 search                                                            opening application
+this is a search test case
+closing application
+| PASS |
+------------------------------------------------------------------------------
+TC4 advance search                                                    opening application
+this is a advance search testcase
+closing application
+| PASS |
+------------------------------------------------------------------------------
+Closing Browser
+Suites.SetupandTeardown                                               | PASS |
+4 tests, 4 passed, 0 failed
+==============================================================================
+Suites                                                                | PASS |
+4 tests, 4 passed, 0 failed
+==============================================================================
+Output:  C:\Users\CBT\PycharmProjects\GodsOwnStay\Results\pabot_results\17\output.xml
