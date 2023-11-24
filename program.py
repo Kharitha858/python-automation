@@ -56,23 +56,23 @@
 # # print("GCD is: ")
 # # print(GCD)
 #
-# # n=[1,2,3,4,5,6,7,8,9,10]
-# # # op:[3,4,5,6,7]
-# # res=[]
-# # for i in range(len(n)):
-# #     if 3<=n[i] and 7>=n[i]:
-# #         res+=[n[i]]
-# # print(res)
-# # def findMissingNumbers(n):
-# #     numbers = set(n)
-# #     # length = len(n)
-# #     output = []
-# #     for i in range(1, n[-1]):
-# #         if i not in numbers:
-# #             output.append(i)
-# #     return output
-# # listOfNumbers = [1, 2, 3, 6, 7, 10]
-# # print(findMissingNumbers(listOfNumbers))
+# n=[1,2,3,4,5,6,7,8,9,10]
+# # op:[3,4,5,6,7]
+# res=[]
+# for i in range(len(n)):
+#     if 3<=n[i] and 7>=n[i]:
+#         res+=[n[i]]
+# print(res)
+# def findMissingNumbers(n):
+#     numbers = set(n)
+#     # length = len(n)
+#     output = []
+#     for i in range(1, n[-1]):
+#         if i not in numbers:
+#             output.append(i)
+#     return output
+# listOfNumbers = [1, 2, 3, 6, 7, 10]
+# print(findMissingNumbers(listOfNumbers))
 #
 # # Input : [5, 3, 4, 3, 5, 5, 3]
 # # Output : 4
@@ -302,7 +302,7 @@ import time
 # for i in range(4000):
 #     actions.perform()
 
-from selenium import webdriver
+from selenium_programs import webdriver
 from webdriver_manager.chrome import ChromeDriverManager
 #
 # driver=webdriver.Chrome(ChromeDriverManager().install())
@@ -326,8 +326,8 @@ from webdriver_manager.chrome import ChromeDriverManager
 
 #@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
 # import time
-from selenium import webdriver
-from selenium.webdriver.common.by import By
+from selenium_programs import webdriver
+from selenium_programs.webdriver.common.by import By
 
 from webdriver_manager.chrome import ChromeDriverManager
 
@@ -453,33 +453,233 @@ from webdriver_manager.chrome import ChromeDriverManager
 # driver.find_element("xpath",'//span[text()="Made for Amazon"]').click()
 
 # handling dropdown:
-from selenium import webdriver
-from selenium.webdriver.support.select import Select
-from webdriver_manager.chrome import ChromeDriverManager
-driver = webdriver.Chrome(ChromeDriverManager().install())
-driver.maximize_window()
-driver.get("https://www.flipkart.com/")
-driver.find_element("xpath",'//p[text()="Login/SignUp"]').click()
-driver.find_element("xpath",'//span[text()=" Login as Admin"]').click()
-driver.find_element("xpath",'//input[@placeholder="Your Username*"]').send_keys("megha")
-driver.find_element("xpath",'//input[@placeholder="Your Password"]').send_keys("megha@123")
-driver.find_element("xpath",'//button[text()=" Login"]').click()
-time.sleep(2)
-driver.find_element("xpath",'//p[text()="Registration"]').click()
-time.sleep(3)
-driver.find_element("xpath",'//p[text()="Agent"]').click()
-driver.find_element("xpath",'//div[text()="Create "]').click()
-driver.find_element("xpath",'//p[text()="Company Type"]//ancestor::div[@class="col-sm-3"]//descendant::input[@type="search"]').click()
-options=driver.find_elements("xpath",'//div[@class="ant-select-item-option-content"]')
-for option in options:
-    print(option.text)
-    time.sleep(5)
-    if option=='B2C':
-        option.click()
-        time.sleep(5)
+# from selenium import webdriver
+# from selenium.webdriver.support.select import Select
+# from webdriver_manager.chrome import ChromeDriverManager
+# driver = webdriver.Chrome(ChromeDriverManager().install())
+# driver.maximize_window()
+# driver.get("https://www.flipkart.com/")
+# driver.find_element("xpath",'//p[text()="Login/SignUp"]').click()
+# driver.find_element("xpath",'//span[text()=" Login as Admin"]').click()
+# driver.find_element("xpath",'//input[@placeholder="Your Username*"]').send_keys("megha")
+# driver.find_element("xpath",'//input[@placeholder="Your Password"]').send_keys("megha@123")
+# driver.find_element("xpath",'//button[text()=" Login"]').click()
+# time.sleep(2)
+# driver.find_element("xpath",'//p[text()="Registration"]').click()
+# time.sleep(3)
+# driver.find_element("xpath",'//p[text()="Agent"]').click()
+# driver.find_element("xpath",'//div[text()="Create "]').click()
+# driver.find_element("xpath",'//p[text()="Company Type"]//ancestor::div[@class="col-sm-3"]//descendant::input[@type="search"]').click()
+# options=driver.find_elements("xpath",'//div[@class="ant-select-item-option-content"]')
+# for option in options:
+#     print(option.text)
+#     time.sleep(5)
+#     if option=='B2C':
+#         option.click()
+#         time.sleep(5)
 
-# s="python"
+# s="one two three"
 # res=""
 # for i in s:
 #   res=i+res
 # print(res)
+# l=s.split()
+# print(l)
+
+# String ="helloworld"
+# def rotate(strg, n):
+#     print(strg[n:])
+#     return strg[n:] + strg[:n]
+#
+# res=rotate('helloworld', -2)
+# print(res)
+
+# s="hellohai"
+# r=""
+# for i in s:
+#     if i not in r:
+#         r+=i
+# print(r)
+#
+# letters = 'hellohai'
+# found_dict = {}
+# for i in letters:
+#     if i in found_dict:
+#         print(i)
+#         break
+#     else:
+#         found_dict[i]= 1
+# # print(found_dict)
+#
+#
+# def findChar(inputString):
+#     list = []
+#     for c in inputString:
+#         if c in list:
+#             return c
+#         else:
+#             list.append(c)
+#     return 'None'
+# print(findChar('hellohai'))
+#
+# def second_largest(numbers):
+#     m1, m2 = 0, 0
+#     for x in numbers:
+#         if x >= m1:
+#             m1, m2 = x, m1
+#         elif x > m2:
+#             m2 = x
+#     print(m2)
+# second_largest([1,23,544,12,420,99])
+
+
+
+
+
+
+from selenium_programs import webdriver
+from webdriver_manager.chrome import ChromeDriverManager
+from selenium_programs.webdriver.common.by import By
+from selenium_programs.webdriver.chrome.service import Service
+
+# driver = webdriver.Chrome()
+#
+# driver.maximize_window()
+# driver.get('https://www.flipkart.com')
+# cookies = driver.get_cookies()
+# time.sleep(3)
+# for cookie in cookies:
+#    print(cookie)
+#    time.sleep(3)
+
+
+
+#Second largest:
+def slargest(numbers):
+   m1,m2=0,0
+   for i in numbers:
+      if i>=m1:
+         m1,m2=i,m1
+      elif i>m2:
+         m2=i
+   # print(m2)
+slargest([1,2,420,599,99])
+
+
+#remove duplicates;
+l=[1,2,3,2,5,6,6,7]
+l1=[]
+for i in l:
+   if i not in l1:
+      l1.append(i)
+
+# print(l1)
+def count_item(item):
+  if l.count(item)==1:
+    return item
+# print(list(filter(count_item,l)))  #op:[1, 3, 5, 7]
+
+
+def remove_duplicates(input_list):
+   output_list = []
+   for element in input_list:
+      if element not in output_list:
+         output_list.append(element)
+   return output_list
+
+l = [1, 2, 3, 4, 2, 5, 1, 3]
+result = remove_duplicates(l)
+# print(result)
+
+# s="programming"
+# d={i:s.count(i) for i in s.count(i)>1 else count(i)}
+
+s="haritha"
+count = {}
+for i in s:
+  if i in count:
+    count[i] += 1
+  else:
+    count[i] = 1
+# print(count)
+# for key in count:
+#   if count[key] > 1:
+    # print(key, count[key])
+
+l = [[1,2,3],[4,5,6],[7,8,9]]
+# Add the contents of internal list. ([6, 15, 24])
+sum_internal = [sum(item) for item in l]
+# print(sum_internal)
+ # Add the contents of entire list. (45)
+# sum_iternal = [sum(item) for item in l]
+sum_whole_list = sum(sum_internal)
+# print(sum_whole_list)
+# items = [[1,2,3],[4,5,6],[7,8,9]]
+
+# to remove duplicates:
+l=[1,2,8,5,2,1,8,6,4]
+l1=[]
+for i in l:
+    if l.count(i)==1:
+        l1.append(i)
+# print(l1) #op[4,5,6,8]
+
+# num=int(input('enter a number:'))
+# for i in range(2,num):
+#     if num%i==0:
+#         print("not prime")
+# else:
+#     print("prime")
+
+
+numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+# # o/p should be {1: [1, 3, 5, 7, 9], 0: [2, 4, 6, 8, 10]}
+
+d=[]
+d2=[]
+# for i in numbers:
+#     if i%2!=0:
+#         d.append(i)
+#     else:
+#         d2.append(i)
+# print(d,d2)
+#
+# numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+# # output should be {1: [1, 3, 5, 7, 9], 0: [2, 4, 6, 8, 10]}
+#
+# result = {1: [num for num in numbers if num % 2 != 0], 0: [num for num in numbers if num % 2 == 0]}
+#
+# print(result)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
